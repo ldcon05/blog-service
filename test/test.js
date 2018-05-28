@@ -1,6 +1,6 @@
 import { script } from 'lab';
 import { expect } from 'code';
-import server from '../app';
+import { server } from '../server';
 
 const { describe, it } = exports.lab = script();
 
