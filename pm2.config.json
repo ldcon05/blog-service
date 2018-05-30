@@ -1,0 +1,11 @@
+{
+  "name": "blog-service",
+  "exec_interpreter": "./node_modules/.bin/babel-node",
+  "script": "./app.js",
+  "cwd": "./",
+  "watch": true,
+  "log_date_format": "YYYY-MM-DD HH:mm Z",
+  "env": {
+    "PORT": 9000
+  }
+}

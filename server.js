@@ -5,7 +5,7 @@ import schema from './graphql/executableSchema';
 import addPlugins from './routes/pluginsHapi';
 
 const server = Hapi.server({
-  host: 'localhost',
+  host: '0.0.0.0',
   port,
 });
 
