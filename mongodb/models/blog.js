@@ -18,6 +18,9 @@ const blogSchema = new mongoose.Schema({
   likes: {
     type: Number,
   },
+  categoryId: {
+    type: mongoose.Schema.Types.ObjectId,
+  },
 });
 
 export default mongoose.model('Blog', blogSchema);

@@ -7,7 +7,7 @@ import resolvers from './resolvers/rootResolver';
 
 export default makeExecutableSchema({
   typeDefs: [
-    schema, rootQuery, rootMutation, blog,
+    schema, rootQuery, rootMutation, ...blog,
   ],
   resolvers,
 });

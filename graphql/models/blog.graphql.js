@@ -1,3 +1,5 @@
+import category from './category.graphql';
+
 const blog = `
   type Blog {
     id: String
@@ -6,7 +8,8 @@ const blog = `
     image: String
     tag: [String]
     likes: Int
+    category: Category
   }
 `;
 
-export default blog;
+export default [blog, category];

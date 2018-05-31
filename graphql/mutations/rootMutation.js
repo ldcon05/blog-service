@@ -6,6 +6,7 @@ const rootMutation = `
       image: String!
       tag: [String]
       likes: Int
+      categoryId: String!
     ): Blog
   }
 `;
